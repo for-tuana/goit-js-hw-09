@@ -1,4 +1,4 @@
-vit config js dosyası içeriğini güncelle import { defineConfig } from 'vite';
+import { defineConfig } from 'vite';
 import { glob } from 'glob';
 import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
