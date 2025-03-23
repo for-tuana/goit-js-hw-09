@@ -33,7 +33,10 @@ export default defineConfig(({ command }) => {
             return 'assets/[name]-[hash][extname]';
           },
         },
+        external: ['simplelightbox'],
       },
+
+      base: '/goit-js-hw-09/',
       outDir: '../dist',
       emptyOutDir: true,
     },
