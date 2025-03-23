@@ -35,7 +35,6 @@ export default defineConfig(({ command }) => {
         },
         external: ['simplelightbox'],
       },
-
       base: '/goit-js-hw-09/',
       outDir: '../dist',
       emptyOutDir: true,
