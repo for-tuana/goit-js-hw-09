@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite';
+vit config js dosyası içeriğini güncelle import { defineConfig } from 'vite';
 import { glob } from 'glob';
 import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
@@ -38,9 +38,6 @@ export default defineConfig(({ command }) => {
       base: '/goit-js-hw-09/',
       outDir: '../dist',
       emptyOutDir: true,
-    },
-    optimizeDeps: {
-      include: ['simplelightbox'],
     },
     plugins: [
       injectHTML(),
