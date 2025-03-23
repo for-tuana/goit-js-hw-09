@@ -39,6 +39,9 @@ export default defineConfig(({ command }) => {
       outDir: '../dist',
       emptyOutDir: true,
     },
+    optimizeDeps: {
+      include: ['simplelightbox'],
+    },
     plugins: [
       injectHTML(),
       FullReload(['./src/**/**.html']),
