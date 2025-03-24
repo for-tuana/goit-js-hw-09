@@ -10,11 +10,12 @@
     <script type="module" src="./js/01-gallery.js"></script>
   </head>
   <body>
-    <load
-      src="./partials/header.html"
-      icon-path="./img/sprite.svg#logo"
-      highlight-act="active"
-    />
+    <div class="container header-container">
+      <svg class="logo-icon" width="40" height="40">
+        <use href="./img/sprite.svg#logo"></use>
+      </svg>
+    </div>
+
     <ul class="gallery"></ul>
 
     <main>
